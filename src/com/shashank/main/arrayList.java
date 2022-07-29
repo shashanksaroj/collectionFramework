@@ -21,8 +21,6 @@ public class arrayList { public static void main(String [] args) {
     la.set(0,100);
     System.out.print("natural order");
     for (int i = 0; i < 10; i++) {
-
-
         System.out.print( " "+la.get(i));
 
     }
