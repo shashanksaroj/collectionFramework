@@ -1,6 +1,7 @@
 package com.shashank.main;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class set {
@@ -24,11 +25,18 @@ public class set {
 
         System.out.println(s);
 
+
         for(int v:s){
 
             System.out.print(" "+v);
 
         }
 
+
+        Iterator iterator = p.iterator();
+
+        while (iterator.hasNext()) {
+            System.out.print(iterator.next() + " ");
+        }
     }
 }
